@@ -7,12 +7,9 @@
 
 **Make an embedded SVG graphic with animations & transitions.**
 
-1. Export the Adobe Illustrator file included in this repo (`bear.ai`) into an SVG—and clean it using SVGOMG.
-
-  · [Illustrator to SVG exporting instructions](http://learn-the-web.algonquindesign.ca/topics/image-formats/#svg)
-
+1. Export the Adobe Illustrator file included in this repo (`bear.ai`) into an SVG—and clean it using SVGOMG.<br>
+  · [Illustrator to SVG exporting instructions](http://learn-the-web.algonquindesign.ca/topics/image-formats/#svg)<br>
   · [SVG cleaning instructions](http://learn-the-web.algonquindesign.ca/topics/advanced-svg/#cleaning-generated-svg)
-
 2. Embed the SVG code directly in the `index.html` file.
 3. Add the interactivity (transitions & animations) to the SVG in the CSS file.
 
