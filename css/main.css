@@ -15,3 +15,61 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.st0 {
+  fill:#673200;
+}
+.st1 {
+  fill:#FFAACA;
+}
+.st2 {
+  fill:#C65B00;
+}
+.st3{
+  fill:none;
+  stroke:#000000;
+  stroke-width:3;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+}
+
+#bear:hover #right-ear {
+transform: translateY(-10px);
+}
+
+#bear:hover #left-ear {
+transform: translateY(-10px);
+}
+
+#left-ear {
+  transition:  all .5s linear;
+  transform-origin: top;
+  transform: translateY(0);
+}
+
+#right-ear{
+  transition: all .5s linear;
+  transform-origin: top;
+  transform: translateY(0);
+}
+
+.eyes{
+  animation: shifteyes 3s linear infinite;
+}
+
+@keyframes shifteyes{
+  0% { transform: translate(0, 0);
+  }
+
+  25% { transform: translate(35px, 0);
+  }
+
+  50% { transform: translate(0, 0);
+  }
+
+  75% { transform: translate(-35px, 0);
+  }
+
+  100% { transform: translate (0, 0);
+}
